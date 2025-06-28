@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import AnimatedSection from "@/components/AnimatedSection";
 import { 
-  Torus, 
+  Circle, 
   Smile, 
   Heart, 
   AlignCenter, 
-  Ambulance, 
+  Phone, 
   Baby,
   CheckCircle
 } from "lucide-react";
@@ -15,7 +15,7 @@ import {
 export default function Services() {
   const services = [
     {
-      icon: Torus,
+      icon: Circle,
       title: "General Dentistry",
       description: "Routine cleanings, fillings, and preventive care to maintain your oral health.",
       features: ["Regular Cleanings", "Cavity Fillings", "Oral Examinations", "Fluoride Treatments"],
@@ -43,10 +43,10 @@ export default function Services() {
       image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&w=400&h=300&fit=crop"
     },
     {
-      icon: Ambulance,
+      icon: Phone,
       title: "Emergency Care",
       description: "Immediate dental care when you need it most, available 24/7.",
-      features: ["Pain Relief", "Broken Torus Repair", "Lost Filling Replacement", "Emergency Extractions"],
+      features: ["Pain Relief", "Broken Tooth Repair", "Lost Filling Replacement", "Emergency Extractions"],
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&w=400&h=300&fit=crop"
     },
     {

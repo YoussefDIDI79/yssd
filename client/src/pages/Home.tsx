@@ -10,7 +10,7 @@ import {
   Users, 
   Star,
   CheckCircle,
-  Torus,
+  Circle,
   Heart,
   Shield
 } from "lucide-react";
@@ -25,7 +25,7 @@ export default function Home() {
 
   const services = [
     {
-      icon: Torus,
+      icon: Circle,
       title: "Dentisterie Générale",
       subtitle: "General Dentistry",
       description: "Nettoyages de routine, obturations et soins préventifs pour maintenir votre santé buccodentaire",
